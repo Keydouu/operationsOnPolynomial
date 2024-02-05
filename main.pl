@@ -1,3 +1,4 @@
+% by CHETOUAN Youness
 writePoly(0,_) :- !.
 writePoly(X,0) :- !, write(X).
 writePoly(X,1) :- !, write(X), write('x').
